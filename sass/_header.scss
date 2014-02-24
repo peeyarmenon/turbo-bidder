@@ -1,0 +1,69 @@
+/* --- Site Header --- */
+#masthead {
+	.navbar-brand {
+		font-weight: 400;
+		font-style: italic;
+		@include transition(color .3s ease-in-out);
+		&:hover,
+		&:focus,
+		&:active {
+			color: $brand-primary;
+		}
+		span {
+			font-weight: 700;
+		}
+	}
+	.navbar-toggle {
+		border: 0;
+		span {
+			@include transition(background .3s ease-in-out);
+		}
+		&:hover,
+		&:focus,
+		&:active {
+			background: transparent;
+			span {
+				background: $brand-primary;
+			}
+		}
+	}
+	#main-navigation {
+		.nav {
+			margin-top: 0;
+			margin-bottom: 0;
+			margin-bottom: 0;
+			padding-bottom: 0;
+			li {
+				margin-bottom: 0;
+				a {
+					@include transition(all .3s ease-in-out);
+					&:hover,
+					&:focus,
+					&:active {
+						color: $brand-primary;
+						background: rgba(black, .2);
+					}
+				}
+				&.active a {
+					color: $brand-primary;
+				}
+			}
+			&.navbar-left {
+				li {
+					a {
+						text-transform: uppercase;
+						font-weight: 700;
+						font-size: 12px;
+						line-height: 20px;
+					}
+				}
+			}
+			&.navbar-right {
+				.dropdown-toggle {
+					font-size: 18px;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+}

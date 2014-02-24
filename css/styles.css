@@ -2724,3 +2724,19 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 
 /* --- Global Styles --- */
 .btn { font-size: 13px; line-height: 20px; padding: 5px 15px; font-weight: 700; text-transform: uppercase; letter-spacing: .75px; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+
+/* --- Site Header --- */
+#masthead .navbar-brand { font-weight: 400; font-style: italic; -webkit-transition: color 0.3s ease-in-out; transition: color 0.3s ease-in-out; }
+#masthead .navbar-brand:hover, #masthead .navbar-brand:focus, #masthead .navbar-brand:active { color: #428bca; }
+#masthead .navbar-brand span { font-weight: 700; }
+#masthead .navbar-toggle { border: 0; }
+#masthead .navbar-toggle span { -webkit-transition: background 0.3s ease-in-out; transition: background 0.3s ease-in-out; }
+#masthead .navbar-toggle:hover, #masthead .navbar-toggle:focus, #masthead .navbar-toggle:active { background: transparent; }
+#masthead .navbar-toggle:hover span, #masthead .navbar-toggle:focus span, #masthead .navbar-toggle:active span { background: #428bca; }
+#masthead #main-navigation .nav { margin-top: 0; margin-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+#masthead #main-navigation .nav li { margin-bottom: 0; }
+#masthead #main-navigation .nav li a { -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+#masthead #main-navigation .nav li a:hover, #masthead #main-navigation .nav li a:focus, #masthead #main-navigation .nav li a:active { color: #428bca; background: rgba(0, 0, 0, 0.2); }
+#masthead #main-navigation .nav li.active a { color: #428bca; }
+#masthead #main-navigation .nav.navbar-left li a { text-transform: uppercase; font-weight: 700; font-size: 12px; line-height: 20px; }
+#masthead #main-navigation .nav.navbar-right .dropdown-toggle { font-size: 18px; line-height: 20px; }
