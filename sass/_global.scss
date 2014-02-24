@@ -1,0 +1,10 @@
+/* --- Global Styles --- */
+.btn {
+	font-size: 13px;
+	line-height: 20px;
+	padding: 5px 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: .75px;
+	@include transition(all .3s ease-in-out);
+}

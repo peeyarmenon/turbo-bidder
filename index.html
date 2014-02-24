@@ -7,12 +7,14 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<title></title>
+	<title>turbobidder - Home</title>
 
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'> -->
 
 	<link rel="stylesheet" href="css/styles.css">
 
@@ -24,59 +26,150 @@
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+	<header id="masthead" class="navbar navbar-inverse navbar-static-top" role="banner">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button><!-- /.navbar-toggle -->
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div>
-</nav>
+				<a class="navbar-brand" href="#">turbo<span>bidder</span></a><!-- /.navbar-brand -->
+			</div><!-- /.navbar-header -->
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<nav id="main-navigation" class="collapse navbar-collapse" role="navigation">
+				<ul class="nav navbar-nav navbar-left">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Properties</a></li>					
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>					
+				</ul><!-- /.nav .navbar-nav .navbar-left -->
+
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-gear"></i> <b class="caret"></b></a><!-- /.dropdown-toggle -->
+
+						<ul class="dropdown-menu">
+							<li><a href="#">My Settings</a></li>
+							<li><a href="#">My Profile</a></li>
+							<li><a href="#">Logout</a></li>
+						</ul>
+					</li>
+				</ul><!-- /.nav .navbar-nav .navbar-right -->
+			</nav><!-- /#main-navigation .navbar-collapse -->
+		</div><!-- /.container -->
+	</header><!-- /#masthead .navbar -->
+
+	<div id="content" class="clearfix">
+		<section id="page-featured-section" class="clearfix">
+			<div class="image-wrap">
+				<div class="img-block"></div><!-- /.img-block -->
+			</div><!-- /.image-wrap -->
+
+			<div class="container">
+				<header class="featured-header">
+					<h1 class="featured-title">Welcome to <span>Turbo Bidder!</span></h1><!-- /.featured-title -->
+				</header><!-- /.featured-header -->
+
+				<div class="entry">
+					<p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing</strong> elit, sed do <strong>eiusmod tempor</strong> incididunt ut labore et <a href="#">dolore magna</a> aliqua.</p>
+				</div><!-- /.entry -->
+
+				<footer class="featured-footer">
+					<div class="button-wrap">
+						<a class="btn btn-primary" role="button">View Dashboard</a>
+					</div><!-- /.button-wrap -->
+				</footer><!-- /.featured-footer --></p>
+			</div><!-- /.container -->
+		</section><!-- /#page-featured-section -->
+
+		<hr>
+
+		<main id="main" role="main">
+			<div class="container">
+				<div id="primary" class="site-content">
+					<section class="page-intro">
+						<header class="section-header">
+							<h1 class="section-title">Section Title</h1><!-- /.section-title -->
+						</header><!-- /.section-header -->
+
+						<div class="section-content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <strong>laboris nisi</strong> ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <strong>officia deserunt</strong> mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <strong>nostrud exercitation</strong> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <strong>minim veniam,</strong> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <a href="#">reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint <strong>occaecat cupidatat</strong> non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div><!-- /.section-content -->
+					</section><!-- /.page-intro -->
+				</div><!-- /#primary .site-content -->
+			</div><!-- /.container -->
+		</main><!-- /#main -->
+
+		<hr>
+	</div><!-- /#content -->
+
+	<div id="megafooter" class="clearfix">
+		<div class="container">
+			<div class="footer-widgets">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<aside class="widget">
+							<header class="widget-header">
+								<h1 class="widget-title">Widget Title</h1><!-- /.widget-title -->
+							</header><!-- /.widget-header -->
+
+							<div class="widget-content">
+								<p>Excepteur sint <strong>occaecat cupidatat</strong> non proident, sunt in culpa qui officia <a href="#">deserunt mollit</a> anim id est laborum.</p>
+							</div><!-- /.widget-content -->
+						</aside><!-- /.widget -->
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<aside class="widget">
+							<header class="widget-header">
+								<h1 class="widget-title">Widget Title</h1><!-- /.widget-title -->
+							</header><!-- /.widget-header -->
+
+							<div class="widget-content">
+								<p>Duis aute irure dolor in <a href="#">reprehenderit in voluptate</a> velit esse cillum <strong>dolore</strong> eu fugiat nulla pariatur.</p>
+							</div><!-- /.widget-content -->
+						</aside><!-- /.widget -->
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<aside class="widget">
+							<header class="widget-header">
+								<h1 class="widget-title">Widget Title</h1><!-- /.widget-title -->
+							</header><!-- /.widget-header -->
+
+							<div class="widget-content">
+								<p>Ut enim ad <strong>minim veniam,</strong> quis nostrud <a href="#">exercitation</a> ullamco laboris nisi ut <strong>aliquip</strong> ex ea commodo consequat.</p>
+							</div><!-- /.widget-content -->
+						</aside><!-- /.widget -->
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<aside class="widget">
+							<header class="widget-header">
+								<h1 class="widget-title">Widget Title</h1><!-- /.widget-title -->
+							</header><!-- /.widget-header -->
+
+							<div class="widget-content">
+								<p>Lorem ipsum dolor sit amet, consectetur <strong>adipisicing</strong> elit, sed do <a href="#">eiusmod tempor</a> incididunt ut labore et dolore <strong>magna aliqua.</strong></p>
+							</div><!-- /.widget-content -->
+						</aside><!-- /.widget -->
+					</div>
+				</div><!-- /.row -->
+			</div><!-- /.footer-widgets -->
+		</div><!-- /.container -->
+	</div><!-- /#megafooter -->
+
+	<footer id="colophon" role="contentinfo" class="clearfix">
+		<div class="container">
+			<p class="copyright text-center">&copy; 2014 &middot; <a href="#">Turbo Bidder</a> &middot; All rights reserved.</p>
+		</div><!-- /.container -->
+	</footer><!-- /#colophon .navbar -->
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
